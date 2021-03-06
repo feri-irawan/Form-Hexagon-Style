@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+  <title>Form Hexagon Style by Feri Irawan</title>
+</head>
+<body>
+
+<section class="container">
+  <div class="form-container">
+    <h1>Log in</h1>
+    <form action="" method="post">
+      <div class="clip-shadow">
+        <div class="input-group">
+          <input type="text" name="email" placeholder="Email" required>
+        </div>
+      </div>
+      <div class="clip-shadow">
+        <div class="input-group">
+          <input type="password" name="password" placeholder="Password" required>
+        </div>
+      </div>
+      
+      <div class="btn-form">
+        <button type="submit" name="submit" class="btn btn-left">Login</button>
+        <a href="#" class="btn btn-right">Sign Up</a>
+      </div>
+    </form>
+  </div>
+</section>
+
+<nav>
+  <a href="https://github.com/feri-irawan/Form-Hexagon-Style"><i class="fab fa-github"></i></a>
+  <a href="https://youtube.com/c/FLIXDIAMOND"><i class="fab fa-youtube"></i></a>
+  <a href="https://www.instagram.com/flixdiamond/"><i class="fab fa-instagram"></i></a>
+</nav>
+
+<style>
+  * {
+    box-sizing: border-box;
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  body {
+    background: #444444;
+  }
+  .container {
+    display: flex;
+    flex-flow: wrap;
+    max-width: 600px;
+    padding: 10px;
+    height: 100vh;
+    margin: auto;
+  }
+  .form-container h1 {
+    background: #fff;
+    padding: 0px 10px;
+    transform: skewY(5deg);
+    max-width: max-content;
+    margin: 0 auto 30px;
+    text-transform: uppercase;
+  }
+  .form-container {
+    padding: 40px 20px;
+    margin: auto;
+    text-align: center;
+    background: #ffbd15;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .input-group {
+    margin: 0 auto;
+    max-width: max-content;
+    margin-bottom: 10px;
+    clip-path: polygon(3% 0, 97% 0, 100% 50%, 97% 100%, 3% 100%, 0% 50%);
+  }
+  .input-group input {
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    color: #555555;
+  }
+  .btn-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .btn {
+    display: inline-block;
+    padding: .4em 1em;
+    border: none;
+    font-size: 14px;
+    flex: 1;
+    max-width: 100px;
+  }
+  .btn-form .btn-left {
+    border: 1px solid #fff;
+    border-radius: 20px 0 0 20px;
+    background: #fff;
+    color: #ffbd15;
+    transition: .3s;
+  }
+  .btn-left:hover {
+    background: #ffbd15;
+    color: #fff;
+  }
+  .btn-form .btn-right {
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .3s;
+  }
+  .btn-right:hover {
+    background: #fff;
+    color: #ffbd15;
+  }
+  .clip-shadow {
+    filter: drop-shadow(0px 5px 2px #00000020);
+  }
+  
+  /* Nav */
+  nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  nav a {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+  }
+  i.fab {
+    font-size: 30px;
+    color: #fff;
+  }
+</style>
+</body>
+</html>
