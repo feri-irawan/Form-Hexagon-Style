@@ -7,7 +7,12 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body {
+  display: flex;
+}
+.container {
+  margin: auto;
+}
 .input-group {
   max-width: max-content;
   clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
