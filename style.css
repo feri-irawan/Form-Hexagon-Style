@@ -15,6 +15,8 @@ body {
 }
 .form-container {
   background: var(--orange);
+  padding: 20px;
+  border-radius: 10px;
 }
 .input-group {
   max-width: max-content;
