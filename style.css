@@ -12,6 +12,7 @@ body {
 }
 .container {
   margin: auto;
+  max-width: 600px;
 }
 .form-container {
   background: var(--orange);
