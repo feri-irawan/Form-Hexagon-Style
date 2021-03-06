@@ -32,10 +32,12 @@
         <a href="#" class="btn btn-right">Sign Up</a>
       </div>
     </form>
-    <a href="#"></a><i class="fab fa-github"></i>
   </div>
 </section>
 
+<nav>
+  <a href="https://github.com/feri-irawan/Form-Hexagon-Style"><i class="fab fa-github"></i></a>
+</nav>
 
 <style>
   * {
@@ -50,6 +52,7 @@
   }
   .container {
     display: flex;
+    flex-flow: wrap;
     max-width: 600px;
     padding: 10px;
     height: 100vh;
@@ -121,8 +124,15 @@
     filter: drop-shadow(0px 5px 2px #00000020);
   }
   
-  i.fas {
+  /* Nav */
+  nav {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+  }
+  i.fab {
     font-size: 30px;
+    color: #fff;
   }
 </style>
 </body>
